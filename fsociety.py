@@ -9,10 +9,9 @@
 #                                   |___/
 #
 #
-#                                Greet's To
-#                              IcoDz - Canejo
 #                             Tool For Hacking
 #                             Author : Manisso
+#                          Updated By: Thisas Ranhiru 
 
 '''
 Imports
@@ -97,35 +96,10 @@ alreadyInstalled = "Already Installed"
 continuePrompt = "\nClick [Return] to continue"
 
 termsAndConditions = color.NOTICE + '''
-I shall not use fsociety to:
-(i) upload or otherwise transmit, display or distribute any
-content that infringes any trademark, trade secret, copyright
-or other proprietary or intellectual property rights of any
-person; (ii) upload or otherwise transmit any material that contains
-software viruses or any other computer code, files or programs
-designed to interrupt, destroy or limit the functionality of any
-computer software or hardware or telecommunications equipment;
+Death to Evil Corp
 ''' + color.END
 
 mrrobot4 = color.NOTICE + '''
-Hello,
-
-As we all know, Mr. Robot 4.0 is comming out - the end of Mr. Robot.
-
-We will update to python3.7 & add all of the new hacking tool of 4.0 later this year
-There will be no more updates after the show is done.
-This is to keep cannon to the show.))
-
-Thank you for all the sourport over the years, the fsociety team thanks you!
-Feel free to join the NEW DISCORD!!!
-Anything Mr. Robot will be on the server!
-
-[ https://discord.gg/xB87X9z ]
-
-
-
-Thanks for reading,
-Zachary, CRO-THEHACKER - Dev'''
 
 '''
 Starts Menu Classes
@@ -135,7 +109,7 @@ def agreement():
         clearScr()
         print(termsAndConditions)
         print(mrrobot4)
-        agree = raw_input("You must agree to our terms and conditions first (Y/n) ").lower()
+        agree = raw_input("Do you pledge your allegiance to fsociety (Y/n) ").lower()
         if agree in yes:
             config.set('fsociety', 'agreement', 'true')
 
@@ -144,8 +118,9 @@ class fsociety:
         clearScr()
         self.createFolders()
         print (fsocietylogo + color.RED + '''
-       }--------------{+} Coded By Manisso {+}--------------{
-       }--------{+}  GitHub.com/Manisso/fsociety {+}--------{
+       }--------------{+} Original Code By Manisso {+}--------------{
+       }--------{+}  Github.com/The-Real-Thisas/fsociety {+}--------{
+       }--------------{+} Updated By Thisas Ranhiru {+}--------------{
     ''' + color.END + '''
        {1}--Information Gathering
        {2}--Password Attacks
@@ -165,6 +140,71 @@ class fsociety:
             informationGatheringMenu()
         elif choice == "2":
             passwordAttacksMenu()
+        elif choice == "mr.robot":
+            print(''' XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                      XX                                                                          XX
+                      XX   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMMMMMMMMssssssssssssssssssssssssssMMMMMMMMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMMMss'''                          '''ssMMMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMyy''                                    ''yyMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMyy''                                            ''yyMMMMMMMM   XX
+                      XX   MMMMMy''                                                    ''yMMMMM   XX
+                      XX   MMMy'                                                          'yMMM   XX
+                      XX   Mh'                                                              'hM   XX
+                      XX   -                                                                  -   XX
+                      XX                                                                          XX
+                      XX   ::                                                                ::   XX
+                      XX   MMhh.        ..hhhhhh..                      ..hhhhhh..        .hhMM   XX
+                      XX   MMMMMh   ..hhMMMMMMMMMMhh.                .hhMMMMMMMMMMhh..   hMMMMM   XX
+                      XX   ---MMM .hMMMMdd:::dMMMMMMMhh..        ..hhMMMMMMMd:::ddMMMMh. MMM---   XX
+                      XX   MMMMMM MMmm''      'mmMMMMMMMMyy.  .yyMMMMMMMMmm'      ''mmMM MMMMMM   XX
+                      XX   ---mMM ''             'mmMMMMMMMM  MMMMMMMMmm'             '' MMm---   XX
+                      XX   yyyym'    .              'mMMMMm'  'mMMMMm'              .    'myyyy   XX
+                      XX   mm''    .y'     ..yyyyy..  ''''      ''''  ..yyyyy..     'y.    ''mm   XX
+                      XX           MN    .sMMMMMMMMMss.   .    .   .ssMMMMMMMMMs.    NM           XX
+                      XX           N`    MMMMMMMMMMMMMN   M    M   NMMMMMMMMMMMMM    `N           XX
+                      XX            +  .sMNNNNNMMMMMN+   `N    N`   +NMMMMMNNNNNMs.  +            XX
+                      XX              o+++     ++++Mo    M      M    oM++++     +++o              XX
+                      XX                                oo      oo                                XX
+                      XX           oM                 oo          oo                 Mo           XX
+                      XX         oMMo                M              M                oMMo         XX
+                      XX       +MMMM                 s              s                 MMMM+       XX
+                      XX      +MMMMM+            +++NNNN+        +NNNN+++            +MMMMM+      XX
+                      XX     +MMMMMMM+       ++NNMMMMMMMMN+    +NMMMMMMMMNN++       +MMMMMMM+     XX
+                      XX     MMMMMMMMMNN+++NNMMMMMMMMMMMMMMNNNNMMMMMMMMMMMMMMNN+++NNMMMMMMMMM     XX
+                      XX     yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy     XX
+                      XX   m  yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy  m   XX
+                      XX   MMm yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy mMM   XX
+                      XX   MMMm .yyMMMMMMMMMMMMMMMM     MMMMMMMMMM     MMMMMMMMMMMMMMMMyy. mMMM   XX
+                      XX   MMMMd   ''''hhhhh       odddo          obbbo        hhhh''''   dMMMM   XX
+                      XX   MMMMMd             'hMMMMMMMMMMddddddMMMMMMMMMMh'             dMMMMM   XX
+                      XX   MMMMMMd              'hMMMMMMMMMMMMMMMMMMMMMMh'              dMMMMMM   XX
+                      XX   MMMMMMM-               ''ddMMMMMMMMMMMMMMdd''               -MMMMMMM   XX
+                      XX   MMMMMMMM                   '::dddddddd::'                   MMMMMMMM   XX
+                      XX   MMMMMMMM-                                                  -MMMMMMMM   XX
+                      XX   MMMMMMMMM                                                  MMMMMMMMM   XX
+                      XX   MMMMMMMMMy                                                yMMMMMMMMM   XX
+                      XX   MMMMMMMMMMy.                                            .yMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMy.                                        .yMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMy.                                    .yMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMMMs.                                .sMMMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMMMMMss.           ....           .ssMMMMMMMMMMMMMMMMMM   XX
+                      XX   MMMMMMMMMMMMMMMMMMMMNo         oNNNNo         oNMMMMMMMMMMMMMMMMMMMM   XX
+                      XX                                                                          XX
+                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+                          .o88o.                               o8o                .
+                          888 `"                               `"'              .o8
+                        o888oo   .oooo.o  .ooooo.   .ooooo.  oooo   .ooooo.  .o888oo oooo    ooo
+                         888    d88(  "8 d88' `88b d88' `"Y8 `888  d88' `88b   888    `88.  .8'
+                         888    `"Y88b.  888   888 888        888  888ooo888   888     `88..8'
+                         888    o.  )88b 888   888 888   .o8  888  888    .o   888 .    `888'
+                       o888o   8""888P' `Y8bod8P' `Y8bod8P' o888o `Y8bod8P'   "888"      d8'
+                                                                                    .o...P'
+                                                                                   `XER0'            ''')
+           
         elif choice == "3":
             wirelessTestingMenu()
         elif choice == "4":
@@ -200,7 +240,7 @@ class fsociety:
      dP""b8  dP"Yb  88b 88 888888 88""Yb 88 88""Yb .dP"Y8
     dP   `" dP   Yb 88Yb88   88   88__dP 88 88__dP `Ybo."
     Yb      Yb   dP 88 Y88   88   88"Yb  88 88""Yb o.`Y8b
-     YboodP  YbodP  88  Y8   88   88  Yb 88 88oodP 8bodP'
+     YboodP  YbodP  88  Y8   88   88  Yb 88 88oodP 8bodP' (To original)
      ''')
         contributorsURL = 'https://api.github.com/repos/manisso/fsociety/contributors'
         jsonResponseList = json.loads(urllib2.urlopen(contributorsURL).read())
